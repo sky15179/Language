@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Dollar (6.2.0)
+  - Kingfisher (3.10.2)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxSwift (3.5.0)
+  - SQLite.swift (0.11.3):
+    - SQLite.swift/standard (= 0.11.3)
+  - SQLite.swift/standard (0.11.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Dollar
+  - Kingfisher
+  - RxCocoa
+  - RxSwift
+  - SQLite.swift (~> 0.11.3)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Dollar: da81aacae30cf7dd059bfdfec709e97f2f0ae2f8
+  Kingfisher: 7297492bf8cec9b2e2dee3519f2219948580d98e
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SQLite.swift: 99b36c22084427f0abbeb957556ce1528cf10bb3
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 7d0223117ee5b8023d5a80233d8101cb2d248f5c
+
+COCOAPODS: 1.2.0.beta.1

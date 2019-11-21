@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ResearchCache' do
+#    pod 'SQLite.swift', '~> 0.11.3'
+    pod "AwesomeCache", "~> 5.0"
+    pod 'Alamofire'
+    pod 'Kingfisher'
+    pod 'Cache'
+    # pod 'ReactiveCocoa'
+    # pod 'ReactiveSwift'
+    pod 'HanekeSwift'
+end

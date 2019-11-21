@@ -1,0 +1,12 @@
+
+use_frameworks!
+
+target 'data-Base-exercises' do
+    pod 'SQLite.swift', '~> 0.11.3'
+    pod 'Alamofire'
+    pod 'Kingfisher'
+    pod 'SwiftyJSON'
+    pod 'Dollar'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+end
