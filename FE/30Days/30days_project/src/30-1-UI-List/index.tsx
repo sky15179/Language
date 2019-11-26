@@ -26,18 +26,22 @@ export default class List extends Component {
           title: '数据一',
           subtitle: '标题一',
           img: 'https://raw.githubusercontent.com/sky15179/Images/master/20190916170919.png'
+        },
+        {
+          title: '数据二',
+          subtitle: '标题二',
+          img: 'https://raw.githubusercontent.com/sky15179/Images/master/20190916170919.png'
+        },
+        {
+          title: '数据三',
+          subtitle: '标题三',
+          img: 'https://raw.githubusercontent.com/sky15179/Images/master/20190916170919.png'
         }
       ]
-        return (
-          <div style={ { flex: 1} }>
-            测试
-            <ul className="item-title">
-              111
-            </ul>
-            <ul>111</ul>
-            <ListItem title="测试2" subtitle="测试副标题" ></ListItem>
-          </div>
-        )
+      const items = datas.map((e, index) => {
+        return <ListItem title={e.title} subtitle={e.subtitle} icon={e.img}></ListItem>
+      })
+        return <div style={{ flex: 1 }}>{items}</div>
     }
 }
 
@@ -60,25 +64,30 @@ interface ButtonProps {
   onClick: () => void
 }
 
-class Button extends Component<ButtonProps> {
-  onFocus = false
+class Button extends Component<ButtonProps, { onFocus:boolean }> {
+  constructor(props: any) {
+    super(props)
+    this.state = {
+      onFocus: false
+    }
+  }
 
-  render () {
-        return (
-          <div
-            onClick={event => {
-              this.props.onClick()
-            }}
-            onFocus={e => {
-              this.onFocus = true
-            }}
-            onBlur={e => {
-              this.onFocus = false
-            }}
-            className={this.onFocus ? 'itemButtonFocus' : 'itemButton'}>
-            {this.props.title}
-          </div>
-        )
+  render() {
+    return (
+      <div
+        onClick={event => {
+          this.props.onClick()
+        }}
+        onMouseOver={e => {
+          this.setState({ onFocus: true })
+        }}
+        onMouseOut={e => {
+          this.setState({ onFocus: false })
+        }}
+        className={this.state.onFocus ? 'itemButtonFocus' : 'itemButton'}>
+        {this.props.title}
+      </div>
+    )
   }
 }
 
