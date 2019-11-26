@@ -1,0 +1,42 @@
+.itemContainer {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    background-color: yellow;
+    
+}
+
+.itemContainer-title {
+    background-color: aquamarine;
+    font-size: 18;
+}
+
+.itemContainer-image {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+.itemContainer-subtitle {
+    background-color: green;
+    font-size: 30px;
+}
+
+.itemTitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.itemButton {
+    color: lightblue;
+    align-self: center;
+    background-color: red;
+}
+
+.itemButtonFocus {
+    color: blue;
+    background-color: red;
+}
