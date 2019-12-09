@@ -25,17 +25,17 @@ export default class List extends Component {
         {
           title: '数据一',
           subtitle: '标题一',
-          img: 'https://raw.githubusercontent.com/sky15179/Images/master/20190916170919.png'
+          img: 'https://img.wanyx.com/softImg/soft/1650_s.jpg'
         },
         {
           title: '数据二',
           subtitle: '标题二',
-          img: 'https://raw.githubusercontent.com/sky15179/Images/master/20190916170919.png'
+          img: 'http://p0.meituan.net/movie/bb9f75599bfbb2c4cf77ad9abae1b95c1376927.jpg'
         },
         {
           title: '数据三',
           subtitle: '标题三',
-          img: 'https://raw.githubusercontent.com/sky15179/Images/master/20190916170919.png'
+          img: 'http://p0.meituan.net/movie/bb9f75599bfbb2c4cf77ad9abae1b95c1376927.jpg'
         }
       ]
       const items = datas.map((e, index) => {
@@ -93,9 +93,7 @@ class Button extends Component<ButtonProps, { onFocus:boolean }> {
 
 class ListItem extends Component<ListItemProps> {
   createIcon = (icon: string) => {
-    return (
-        <img src={logo} className="itemContainer-image" alt="logo" />
-    )
+    return <img src={icon} className="itemContainer-image" />
   }
 
   createTitle = (title: string) => {
@@ -110,7 +108,7 @@ class ListItem extends Component<ListItemProps> {
     let { icon, title, subtitle } = this.props
     return (
       <div className="itemContainer">
-        <div>{this.createIcon('123')}</div>
+        <div>{!!icon ? this.createIcon(icon) : null}</div>
         <div className="itemTitleContainer">
           {!!title ? this.createTitle(title) : null}
           {!!subtitle ? this.createSubTitle(subtitle) : null}
