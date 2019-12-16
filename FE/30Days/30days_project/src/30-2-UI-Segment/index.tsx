@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import logo from '.././logo.svg'
-// import './style.less'
 import './index.css';
 
-export default class List extends Component {
+export default class Segment extends Component {
     constructor(props: any) {
         super(props)
     }

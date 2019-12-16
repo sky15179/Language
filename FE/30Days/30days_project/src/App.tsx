@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import List from './30-1-UI-List'
+import Segment from './30-2-UI-Segment'
 
 const App: React.FC = () => {
   return (
