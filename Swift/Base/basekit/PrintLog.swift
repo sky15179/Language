@@ -9,12 +9,12 @@
 import Foundation
 
 public func printLog<T>(messgae:T,
-    file: String = __FILE__,
-    method: String = __FUNCTION__,
-    line: Int = __LINE__){
-//        #if DEBUG
+                        file: String = #file,
+                        method: String = #function,
+                        line: Int = #line){
+        #if DEBUG
             print("log输出的文件:\((file as NSString).lastPathComponent),行号:\(line),方法:\(method)")
-//        #endif
+        #endif
 }
 
 

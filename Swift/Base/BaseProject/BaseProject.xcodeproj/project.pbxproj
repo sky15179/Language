@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352E0B4F23BAF78400613F30 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4523BAF78400613F30 /* ThreadHelper.swift */; };
+		352E0B5023BAF78400613F30 /* ZGBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4623BAF78400613F30 /* ZGBase.swift */; };
+		352E0B5123BAF78400613F30 /* UIViewController+Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4723BAF78400613F30 /* UIViewController+Stack.swift */; };
+		352E0B5223BAF78400613F30 /* Recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4823BAF78400613F30 /* Recursive.swift */; };
+		352E0B5323BAF78400613F30 /* ViewExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4923BAF78400613F30 /* ViewExtesion.swift */; };
+		352E0B5423BAF78400613F30 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4A23BAF78400613F30 /* Box.swift */; };
+		352E0B5523BAF78400613F30 /* PrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4B23BAF78400613F30 /* PrintLog.swift */; };
+		352E0B5623BAF78400613F30 /* sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4C23BAF78400613F30 /* sort.swift */; };
+		352E0B5723BAF78400613F30 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4D23BAF78400613F30 /* CALayer+Extension.swift */; };
+		352E0B5823BAF78400613F30 /* KitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E0B4E23BAF78400613F30 /* KitExtension.swift */; };
 		35B2D1F8238284F70006F6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B2D1F7238284F70006F6C5 /* AppDelegate.swift */; };
 		35B2D1FA238284F70006F6C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B2D1F9238284F70006F6C5 /* ViewController.swift */; };
 		35B2D1FD238284F70006F6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B2D1FB238284F70006F6C5 /* Main.storyboard */; };
@@ -26,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		352E0B4523BAF78400613F30 /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
+		352E0B4623BAF78400613F30 /* ZGBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZGBase.swift; sourceTree = "<group>"; };
+		352E0B4723BAF78400613F30 /* UIViewController+Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Stack.swift"; sourceTree = "<group>"; };
+		352E0B4823BAF78400613F30 /* Recursive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recursive.swift; sourceTree = "<group>"; };
+		352E0B4923BAF78400613F30 /* ViewExtesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtesion.swift; sourceTree = "<group>"; };
+		352E0B4A23BAF78400613F30 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		352E0B4B23BAF78400613F30 /* PrintLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLog.swift; sourceTree = "<group>"; };
+		352E0B4C23BAF78400613F30 /* sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sort.swift; sourceTree = "<group>"; };
+		352E0B4D23BAF78400613F30 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		352E0B4E23BAF78400613F30 /* KitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitExtension.swift; sourceTree = "<group>"; };
 		35B2D1F4238284F70006F6C5 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B2D1F7238284F70006F6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35B2D1F9238284F70006F6C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		352E0B4423BAF78400613F30 /* basekit */ = {
+			isa = PBXGroup;
+			children = (
+				352E0B4523BAF78400613F30 /* ThreadHelper.swift */,
+				352E0B4623BAF78400613F30 /* ZGBase.swift */,
+				352E0B4723BAF78400613F30 /* UIViewController+Stack.swift */,
+				352E0B4823BAF78400613F30 /* Recursive.swift */,
+				352E0B4923BAF78400613F30 /* ViewExtesion.swift */,
+				352E0B4A23BAF78400613F30 /* Box.swift */,
+				352E0B4B23BAF78400613F30 /* PrintLog.swift */,
+				352E0B4C23BAF78400613F30 /* sort.swift */,
+				352E0B4D23BAF78400613F30 /* CALayer+Extension.swift */,
+				352E0B4E23BAF78400613F30 /* KitExtension.swift */,
+			);
+			name = basekit;
+			path = ../../basekit;
+			sourceTree = "<group>";
+		};
 		35B2D1EB238284F70006F6C5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +115,7 @@
 		35B2D1F6238284F70006F6C5 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				352E0B4423BAF78400613F30 /* basekit */,
 				35B2D1F7238284F70006F6C5 /* AppDelegate.swift */,
 				35B2D1F9238284F70006F6C5 /* ViewController.swift */,
 				35B2D1FB238284F70006F6C5 /* Main.storyboard */,
@@ -197,8 +236,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352E0B5223BAF78400613F30 /* Recursive.swift in Sources */,
+				352E0B5523BAF78400613F30 /* PrintLog.swift in Sources */,
 				35B2D1FA238284F70006F6C5 /* ViewController.swift in Sources */,
+				352E0B5323BAF78400613F30 /* ViewExtesion.swift in Sources */,
 				35B2D1F8238284F70006F6C5 /* AppDelegate.swift in Sources */,
+				352E0B5623BAF78400613F30 /* sort.swift in Sources */,
+				352E0B5823BAF78400613F30 /* KitExtension.swift in Sources */,
+				352E0B5123BAF78400613F30 /* UIViewController+Stack.swift in Sources */,
+				352E0B5423BAF78400613F30 /* Box.swift in Sources */,
+				352E0B4F23BAF78400613F30 /* ThreadHelper.swift in Sources */,
+				352E0B5723BAF78400613F30 /* CALayer+Extension.swift in Sources */,
+				352E0B5023BAF78400613F30 /* ZGBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
