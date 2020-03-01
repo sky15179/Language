@@ -1,15 +1,15 @@
 //
-//  swiftUITests.swift
-//  swiftUITests
+//  LearnTests.swift
+//  LearnTests
 //
-//  Created by 王智刚 on 2020/2/26.
+//  Created by 王智刚 on 2020/2/29.
 //  Copyright © 2020 王智刚. All rights reserved.
 //
 
 import XCTest
-@testable import swiftUI
+@testable import Learn
 
-class swiftUITests: XCTestCase {
+class LearnTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
