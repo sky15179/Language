@@ -9,9 +9,8 @@
 import Foundation
 
 extension DispatchQueue{
-    
     /// 防止主线程异步死锁
-    public func safe_Async(_ block:@escaping()->()) {
+    public func safe_Async(_ block: @escaping()->()) {
         if self === DispatchQueue.main && Thread.isMainThread {
             block()
         }else{
