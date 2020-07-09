@@ -8,6 +8,16 @@
 
 import UIKit
 
+/*:
+ 思路：在CALayer上异步渲执行渲染任务，将渲染结果作为图片直接加载
+ 注意：
+ * 重复渲染任务的取消
+ * 任务的取消
+ * 画布的有效性检验和背景色的处理
+ * 模块的拆分，异步渲染只提供画布，具体画布操作自定义实现
+ * 根据原子属性的递增来判断任务的有效性
+ */
+
 private func getReleaseQueue () -> DispatchQueue {
     var maxCount: Int64 = 16
     var queues: [DispatchQueue] = []
@@ -24,7 +34,6 @@ private func getReleaseQueue () -> DispatchQueue {
 }
 
 private func getDisplayQueue () -> DispatchQueue {
-    
     return DispatchQueue.global(qos: DispatchQoS.QoSClass.background)
 }
 
